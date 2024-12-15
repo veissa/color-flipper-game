@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Color Flipper </title>
+        <style>
+            h1{
+                font-size: 60px;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                text-align: center;
+                margin-top: 100px;
+            }
+            .ab{
+                width: 50%;
+                margin: auto;
+                margin-left: 540px;
+                margin-top: 270px;
+            }
+            button{
+                width: 120px;
+                height: 70px;
+                margin: 10px;
+                font-size: 22px;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <h1> Welcome to The <strong><mark>COLOR</mark> </strong> Flipper Game </h1>
+        
+        <div class="ab">
+            <button id="green" onclick="setColor('green')">Green</button>
+            <button id="red" onclick="setColor('red')">Red</button>
+            <button id="yellow" onclick="setColor('yellow')">Yellow</button>
+            <button id="blue" onclick="setColor('blue')">Blue</button>
+            <button id="random" onclick="setRandom()">Random</button>
+            <button onclick="setColor('white')">Reset</button>
+            <script src="index.js"></script>
+        </div>
+        
+    </body>
+</html>
